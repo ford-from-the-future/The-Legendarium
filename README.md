@@ -1,3 +1,3 @@
-# consult-the-stars
+# The Legendarium
 
 The website is accessed by the user through HTML, CSS, and JavaScript components. An instance involves entering a question into an input field. On the client side, JavaScript carries out preliminary processing and initiates API requests to the Node.js/Express backend. Node.js and Express handle the API requests, manage routing, execute server-side logic, and, if necessary, make additional requests to the World Anvil Boromir API. The backend interacts with the World Anvil Boromir API to retrieve or transmit data related to the user's World Anvil world. The backend processes the response from the World Anvil API, if applicable, and transmits the requisite data to the frontend. Subsequently, JavaScript on the client side updates the user interface in accordance with the received data, presenting the answer to the user's question.
