@@ -1,0 +1,33 @@
+# 🚀 Ignore Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 🔐 Ignore environment files (API keys, secrets)
+.env
+.env.local
+.env.development
+.env.production
+
+# 📦 Ignore logs and temp files
+logs/
+*.log
+yarn.lock
+package-lock.json
+
+# 🚀 Ignore build & cache files
+dist/
+.cache/
+.next/
+out/
+
+# ⚙️ Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# 🛠 Ignore IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
