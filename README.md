@@ -36,5 +36,5 @@ This project is an AI-powered assistant that interacts with the **World Anvil Bo
 
 ### 1️⃣ **Clone the Repository**  
 ```sh
-git clone https://github.com/yourusername/world-anvil-ai-assistant.git
-cd world-anvil-ai-assistant
+git clone https://github.com/ford-from-the-future/The-Legendarium.git
+cd The-Legendarium
