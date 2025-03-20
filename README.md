@@ -1,3 +1,40 @@
-# The Legendarium
+# 🏗️ AI-Powered World Anvil Assistant  
 
-The website is accessed by the user through HTML, CSS, and JavaScript components. An instance involves entering a question into an input field. On the client side, JavaScript carries out preliminary processing and initiates API requests to the Node.js/Express backend. Node.js and Express handle the API requests, manage routing, execute server-side logic, and, if necessary, make additional requests to the World Anvil Boromir API. The backend interacts with the World Anvil Boromir API to retrieve or transmit data related to the user's World Anvil world. The backend processes the response from the World Anvil API, if applicable, and transmits the requisite data to the frontend. Subsequently, JavaScript on the client side updates the user interface in accordance with the received data, presenting the answer to the user's question.
+## 🌍 Overview  
+This project is an AI-powered assistant that interacts with the **World Anvil Boromir API** to fetch and interpret information from a user's world.  
+
+### 🔥 **What It Does (Phase 1)**  
+- Provides a **simple web interface** where users ask questions about their world.  
+- Uses **AI (LLM like GPT/Llama)** to process natural language queries.  
+- Calls **World Anvil Boromir API** to fetch relevant data.  
+- Formats responses into **human-readable answers**.  
+- **No caching, no authentication** (yet) – just a clean MVP to test core functionality.  
+
+---
+
+## 🛠️ Tech Stack  
+| Layer      | Technology        |
+|------------|------------------|
+| **Frontend**  | Next.js (React)  |
+| **Backend**   | Node.js (Express) |
+| **AI Processing** | OpenAI GPT / Llama 3 |
+| **API Integration** | World Anvil Boromir API |
+| **Hosting**   | Vercel (Frontend), DigitalOcean/AWS (Backend) |
+
+---
+
+## 📌 Phase 1 Features  
+✅ Basic **web UI** with input box & submit button.  
+✅ AI **understands and processes user queries**.  
+✅ **Boromir API Integration** to fetch world data.  
+✅ **Error handling & minimal logging** for debugging.  
+✅ **Simple deployment (no auth, no caching)**.  
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ **Clone the Repository**  
+```sh
+git clone https://github.com/yourusername/world-anvil-ai-assistant.git
+cd world-anvil-ai-assistant
